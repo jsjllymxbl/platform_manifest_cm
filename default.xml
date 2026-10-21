@@ -228,4 +228,8 @@
 
   <project path="android" name="CyanogenMod/android" />
 
+  <!-- Mi2 (aries) bringup -->
+  <project path="device/xiaomi/aries" name="jsjllymxbl/android_device_xiaomi_aries" revision="gingerbread" />
+  <project path="kernel/xiaomi/aries" name="jsjllymxbl/android_kernel_xiaomi_aries" revision="gingerbread" />
+  <project path="vendor/xiaomi/aries" name="jsjllymxbl/android_vendor_xiaomi_aries" revision="gingerbread" />
 </manifest>
