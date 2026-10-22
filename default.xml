@@ -232,4 +232,9 @@
   <project path="device/xiaomi/aries" name="jsjllymxbl/android_device_xiaomi_aries" revision="gingerbread" />
   <project path="kernel/xiaomi/aries" name="jsjllymxbl/android_kernel_xiaomi_aries" revision="gingerbread" />
   <project path="vendor/xiaomi/aries" name="jsjllymxbl/android_vendor_xiaomi_aries" revision="gingerbread" />
+
+  <!-- Wi-Fi：wpa_supplicant 2.x + libnl（GB 无 libnl，且 0.6 的 nl80211 不完整） -->
+  <project path="external/libnl" name="jsjllymxbl/android_external_libnl" revision="gingerbread" />
+  <project path="external/libnl-headers" name="jsjllymxbl/android_external_libnl-headers" revision="gingerbread" />
+  <project path="external/wpa_supplicant_8" name="jsjllymxbl/android_external_wpa_supplicant_8" revision="gingerbread" />
 </manifest>
